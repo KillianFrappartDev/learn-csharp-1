@@ -10,6 +10,7 @@ namespace learn_csharp_1
             Exercice1.ValidNumber();
             Exercice2.MaxNumber();
             Exercice3.ImageOrientation();
+            Exercice4.CameraProgram();
         }
     }
 }

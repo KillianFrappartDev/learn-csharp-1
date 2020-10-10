@@ -12,8 +12,13 @@ namespace learn_csharp_1
             Console.WriteLine("Enter image height");
             var height = Convert.ToInt32(Console.ReadLine());
 
-            var result = width > height ? "landscape" : "portrait";
-            Console.WriteLine($"The image is {result}");
+            if (width == height) Console.WriteLine("It is a square...");
+            else
+            {
+                var result = width > height ? "landscape" : "portrait";
+                Console.WriteLine($"The image is {result}");
+            }
+
         }
     }
 }
