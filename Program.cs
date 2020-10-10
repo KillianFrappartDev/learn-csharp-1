@@ -2,11 +2,14 @@
 
 namespace learn_csharp_1
 {
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Exercice1.ValidNumber();
+            Exercice2.MaxNumber();
+            Exercice3.ImageOrientation();
         }
     }
 }
